@@ -10,13 +10,6 @@ mov rdi, 0x1337
 ## flag > ``
 
 
-```
-note - 
-
-I looked up why exactly `.intel_syntax noprefix` worked. \
-it was because the thing was probably using at&t syntax which is poo. \
-I gotta specify what syntax to let the assembly use in the beginning.
-```
 <br><br><br>
 
 ***
