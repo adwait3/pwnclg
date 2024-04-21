@@ -2,35 +2,12 @@
 
 # `level-1`
 
-
-### Challenge :
-
-
-
-### Solution :
-
-I directly tried using the method explained in the chal description, but I got this - \
-![image](https://github.com/IC3lemon/pwncollege/assets/150153966/071c2516-836b-4735-ba7b-1bbf58b5d67a)
-
-I looked it up. \
-![image](https://github.com/IC3lemon/pwncollege/assets/150153966/65e1769c-68fc-48de-a34e-b019816855f5)
-
-put the `%`, and this happened - \
-![image](https://github.com/IC3lemon/pwncollege/assets/150153966/30fd8a6c-1860-432b-96ef-b19222a257ed)
-
-A friend helped out tho (ASHWIN THE GOATT 🐐 🐐)
-
-![image](https://github.com/IC3lemon/pwncollege/assets/150153966/64660fa5-58ce-41fd-8d92-4aaff4ec9610)
-
-sure enough
 ```asm
 .intel_syntax noprefix
-mov %rdi, 0x1337
+mov rdi, 0x1337
 ```
-![image](https://github.com/IC3lemon/pwncollege/assets/150153966/b5a48451-4f7a-4cfd-970e-00aa1e6ffa62)
 
-
-## flag > `pwn.college{Ird0_S-9a6HpZqspZkLxkLnMgwN.0FN5EDL4UjM3QzW}`
+## flag > ``
 
 
 ```
